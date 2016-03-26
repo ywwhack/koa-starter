@@ -19,14 +19,11 @@ copiedFilesName.forEach((fileName) => {
       const projectPackageContent = fs.readFileSync(projectFilePath, 'utf8');
       const projectPackageJson = JSON.parse(projectPackageContent);
       const templateJson = JSON.parse(content);
-      console.log(projectPackageJson);
-      console.log(templateJson);
       for(let dependency in templateJson.dependencies) {
         projectPackageJson.dependencies[dependency] = templateJson.dependencies[dependency];
       }
       fs.writeFileSync(projectFilePath, JSON.stringify(projectPackageJson));
     }catch(e) {
-      console.log(e);
       fs.writeFileSync(projectFilePath, content);
     }
   }else {

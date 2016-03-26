@@ -3,7 +3,7 @@
   "version": "1.0.1",
   "description": "do some common configuration when start a koa-based web project",
   "bin": {
-    "generate": "./src/index.js"
+    "koas": "./src/index.js"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
