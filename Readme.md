@@ -1,9 +1,9 @@
-#A generator for koa-based web application(koa2.0) 
+# A scaffold for koa-based web application(koa2.0) 
 
 ##How to use
 	
-	sudo npm install koa-starter -g
-	koa-starter generate
+	sudo npm install koas -g
+	koas generate
 	
 That's all!  
 open `app.js`, and enjoy yourself~  
