@@ -22,11 +22,5 @@
   "bugs": {
     "url": "https://github.com/ywwhack/koa-starter/issues"
   },
-  "homepage": "https://github.com/ywwhack/koa-starter#readme",
-  "dependencies": {
-    "babel-plugin-transform-async-to-generator": "^6.7.4",
-    "babel-plugin-transform-es2015-modules-commonjs": "^6.7.4",
-    "koa": "^2.0.0",
-    "koa-router": "^7.0.1"
-  }
+  "homepage": "https://github.com/ywwhack/koa-starter#readme"
 }
