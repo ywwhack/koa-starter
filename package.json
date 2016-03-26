@@ -1,5 +1,5 @@
 {
-  "name": "koa-starter",
+  "name": "koas",
   "version": "1.0.0",
   "description": "do some common configuration when start a koa-based web project",
   "bin": {
@@ -10,18 +10,19 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ywwhack/koa-project-starter.git"
+    "url": "git+https://github.com/ywwhack/koa-starter.git"
   },
   "keywords": [
     "koa",
-    "web"
+    "web",
+    "scoffold"
   ],
   "author": "ywwhack",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/ywwhack/koa-project-starter/issues"
+    "url": "https://github.com/ywwhack/koa-starter/issues"
   },
-  "homepage": "https://github.com/ywwhack/koa-project-starter#readme",
+  "homepage": "https://github.com/ywwhack/koa-starter#readme",
   "dependencies": {
     "babel-plugin-transform-async-to-generator": "^6.7.4",
     "babel-plugin-transform-es2015-modules-commonjs": "^6.7.4",
