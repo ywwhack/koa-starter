@@ -1,6 +1,6 @@
 {
   "name": "koa-starter",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "do some common configuration when start a koa-based web project",
   "bin": {
     "generate": "./src/index.js"
