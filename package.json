@@ -1,0 +1,31 @@
+{
+  "name": "koa-starter",
+  "version": "0.0.1",
+  "description": "do some common configuration when start a koa-based web project",
+  "bin": {
+    "generate": "./src/index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ywwhack/koa-project-starter.git"
+  },
+  "keywords": [
+    "koa",
+    "web"
+  ],
+  "author": "ywwhack",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ywwhack/koa-project-starter/issues"
+  },
+  "homepage": "https://github.com/ywwhack/koa-project-starter#readme",
+  "dependencies": {
+    "babel-plugin-transform-async-to-generator": "^6.7.4",
+    "babel-plugin-transform-es2015-modules-commonjs": "^6.7.4",
+    "koa": "^2.0.0",
+    "koa-router": "^7.0.1"
+  }
+}
