@@ -3,7 +3,9 @@
 ##How to use
 	
 	sudo npm install koas -g
-	cd path/to/project && koas
+	cd path/to/project // enter to your root project directory
+	koas               // generator scaffold
+	npm install        // install npm module dependecies
 	
 That's all!  
 open `app.js`, and enjoy yourself~  
