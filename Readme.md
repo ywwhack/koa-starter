@@ -3,7 +3,7 @@
 ##How to use
 	
 	sudo npm install koas -g
-	koas generate
+	cd path/to/project && koas
 	
 That's all!  
 open `app.js`, and enjoy yourself~  
