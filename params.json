@@ -1,0 +1,6 @@
+{
+  "name": "Koa-starter",
+  "tagline": "a scoffold of koa web application",
+  "body": "# A scaffold for koa-based web application(koa2.0) \r\n\r\n##How to use\r\n\t\r\n\tsudo npm install koas -g\r\n\tcd path/to/project // enter to your root project directory\r\n\tkoas               // generator scaffold\r\n\tnpm install        // install npm module dependecies\r\n\t\r\nThat's all!  \r\nopen `app.js`, and enjoy yourself~  \r\n*Note: Dont't forget use babel(or babel-node for convenience)*",
+  "note": "Don't delete this file! It's used internally to help with page regeneration."
+}
