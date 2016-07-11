@@ -1,7 +1,7 @@
 {
   "name": "koas",
   "version": "1.1.0",
-  "description": "do some common configuration when start a koa-based web project",
+  "description": "do some common configuration when start a koa2-based web project",
   "bin": {
     "koas": "./src/index.js"
   },

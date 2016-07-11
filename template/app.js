@@ -2,14 +2,24 @@
 import Koa from 'koa';
 import koaRouter from 'koa-router';
 import serve from 'koa-static';
+import multer from 'koa-multer';
+import cors from 'koa-cors';
 
 const app = new Koa();
 const router = koaRouter();
+const upload = multer({dest: './uploads/'});
 
 router.get('/', async (ctx, next) => {
   ctx.body = 'hello world';
 });
 
+router.post('/upload', upload.any(), async (ctx, next) => {
+  console.log(ctx.req.body);
+  console.log(ctx.req.files);
+  ctx.body = '';
+});
+
+app.use(cors());
 app.use(serve('.'));
 app.use(router.routes());
 
