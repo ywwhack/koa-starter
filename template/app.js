@@ -4,6 +4,7 @@ import koaRouter from 'koa-router';
 import serve from 'koa-static';
 import multer from 'koa-multer';
 import cors from 'koa-cors';
+import convert from 'koa-convert';
 
 const app = new Koa();
 const router = koaRouter();
@@ -16,10 +17,10 @@ router.get('/', async (ctx, next) => {
 router.post('/upload', upload.any(), async (ctx, next) => {
   console.log(ctx.req.body);
   console.log(ctx.req.files);
-  ctx.body = '';
+  ctx.body = {status: 'ok'};
 });
 
-app.use(cors());
+app.use(convert(cors()));
 app.use(serve('.'));
 app.use(router.routes());
 
