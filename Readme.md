@@ -7,8 +7,9 @@
 ##How to use
 	
 	koas path/to/project && cd path/to/project
-	npm install
+	yarn
+	npm start
 	
 That's all!  
 open `app.js`, and enjoy yourself~  
-*Note: Dont't forget use babel(or babel-node for convenience)*
+*Note: we use 'babel-node' in start script for convience, you should replace it in production*
