@@ -8,8 +8,8 @@
 	
 	koas path/to/project && cd path/to/project
 	yarn
-	npm start
+	yarn start
 	
 That's all!  
 open `app.js`, and enjoy yourself~  
-*Note: we use 'babel-node' in start script for convience, you should replace it in production*
+*Note: you should use node7.6+ to support async/await syntax, or config your own babel env*
