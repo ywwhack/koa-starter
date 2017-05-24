@@ -1,6 +1,6 @@
 {
   "name": "koas",
-  "version": "1.4.0",
+  "version": "1.4.1",
   "description": "do some common configuration when start a koa2-based web project",
   "bin": {
     "koas": "./src/index.js"
@@ -8,7 +8,7 @@
   "scripts": {
     "release": "np"
   },
-  "publishConfig":{
+  "publishConfig": {
     "registry": "https://registry.npmjs.org/"
   },
   "repository": {
