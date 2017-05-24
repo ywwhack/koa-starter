@@ -6,7 +6,7 @@
     "koas": "./src/index.js"
   },
   "scripts": {
-    "release": "np"
+    "release": "np --yolo --no-yarn"
   },
   "publishConfig": {
     "registry": "https://registry.npmjs.org/"
