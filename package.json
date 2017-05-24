@@ -6,7 +6,7 @@
     "koas": "./src/index.js"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "release": "np"
   },
   "repository": {
     "type": "git",
@@ -22,5 +22,8 @@
   "bugs": {
     "url": "https://github.com/ywwhack/koa-starter/issues"
   },
-  "homepage": "https://github.com/ywwhack/koa-starter#readme"
+  "homepage": "https://github.com/ywwhack/koa-starter#readme",
+  "devDependencies": {
+    "np": "^2.15.0"
+  }
 }
